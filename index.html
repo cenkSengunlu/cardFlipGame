@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Flip Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='icon' href='icon.png' type='image/x-icon' sizes="16x16" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <p id="match" style="font-size: 11rem; text-align:center;">Card Flip Game!</p> 
+            </div>
+
+            <div style="text-align:center;">
+                  <button class="cybr-btn" id="myBtn" style="margin:1rem 0 1rem 0">
+                    PLAY<span aria-hidden>_</span>
+                    <span aria-hidden class="cybr-btn__glitch">GAME_</span>
+                    <span aria-hidden class="cybr-btn__tag">R25</span>
+                  </button>
+                  <p id="start"></p>
+                  <p id="time"></p>
+                  <p id="score"></p>
+            </div>
+        </div>
+    </header>
+    <div class="grid-container" id="container">
+        <img src="card.jpg" alt="" id="card1" class="card close" data-abc="1">
+    
+        <img src="card.jpg" alt="" id="card2" class="card close">
+    
+        <img src="card.jpg" alt="" id="card3" class="card close">
+    
+        <img src="card.jpg" alt="" id="card4" class="card close">
+
+        <img src="card.jpg" alt="" id="card5" class="card close">
+    
+        <img src="card.jpg" alt="" id="card6" class="card close">
+    
+        <img src="card.jpg" alt="" id="card7" class="card close">
+    
+        <img src="card.jpg" alt="" id="card8" class="card close">
+    
+        <img src="card.jpg" alt="" id="card9" class="card close">
+
+        <img src="card.jpg" alt="" id="card10" class="card close">
+    
+        <img src="card.jpg" alt="" id="card11" class="card close">
+    
+        <img src="card.jpg" alt="" id="card12" class="card close">
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
